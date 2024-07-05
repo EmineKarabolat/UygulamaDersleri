@@ -1,0 +1,116 @@
+İkinci Hafta İşlenilen Konuların Notları
+
+
+NOT: Buradaki notlarda java programının temelleri üzerine notlar çıkarılmıştır. Bunun yanında ikinci haftada döngüler konusu üzerine çalışılmıştır fakat döngüler konusuna derste yapılan örnekler üzerinden konu tekrarı yapıldığı için burada o konuya ait notlar bulunmamaktadır. Tekrardan bu tarz çalışma istenmesi durumunda eksik kalmış notlar, istenilmesi durumunda çalışmaya eklenecektir.
+
+
+JAVA PROGRAMININ TEMELLERİ:
+
+1- JAVA PROGRAMINDA KULLANILAN İFADELER:
+
+ Bir programda, boşluk (white space) ve yorumlar (comments) dışında kalan her şey bir ifade'dir.
+ İfade derleyicinin işlediği ve anlamlı olan en küçük program parçasıdır ve dildeki farklı yapıları işaret
+ ederler.
+ Javadaki ifadeler Unicode'dur.
+ Javada 5 farklı tip ifade vardır
+
+2-  JAVADA KULLANILAN İFADE TİPLERİ:
+
+ identifier: Java programlama dilinde "identifier" (tanımlayıcı), değişkenlerin, metodların, sınıfların, arayüzlerin, paketlerin vb. adlandırılması için kullanılan terimdir. Bir identifier, belirli kurallara göre adlandırılmalıdır ve Java dilinde kullanılan anahtar kelimeler (keywords) ile çakışmamalıdır.
+ keyword: Java programlama dilinde "keyword" (anahtar kelime), dilin sözdizimi tarafından ayrılmış özel bir anlamı olan ve belirli bir görevi veya işlevi olan özel bir sözcüktür. 57 adet keyword bulunmaktadır.
+
+literal: Programda doğrudan kullanılan sabit değerlerdir. Bir literal, yazıldığı biçimde değeri temsil eder ve değişmezdir.
+
+seperatörler: Genellikle dosya yolları veya paket isimlerinde kullanılan özel karakterlerdir. Bu karakterler, belirli bir bağlamda kullanıldıklarında öğeleri birbirinden ayırmak veya düzenlemek için kullanılırlar.
+
+operatörler: Java programlama dilinde kullanılan operatörler çeşitli kategorilere ayrılır ve programlama yaparken çok çeşitli işlemler yapmak için kullanılırlar. Java programlama dilinde 38 adet operatör bulunmaktadır.
+
+3- YORUM SATIRLARI (COMMENTS):
+ Java’da 2 farklı yorum (comment) şekli vardır:
+  • "//" (çift yatık çizgi) (end-of-line comment) bulunduğu yerden itibaren satırı yorum yapar:
+  “/* */” (block/traditional comment) bir ya da daha fazla satırı, blok olarak yorum yapar:
+ Anlaşılır kodun dokümantasyona ihtiyacı azdır!
+ Kod içi dokümantasyon yerine daha anlaşılır kod yazmaya gayret edilmelidir.
+
+4- IDENTIFIERS – BELİRTEÇ - İSİM:
+ Bir programdaki isimlere identifier denir.
+ Java programlarındaki identifierlar, paket, sınıf, arayüz, metot, blok ve değişken isimlendirmek için
+kullanılır.
+ Javada isimlendirme için kurallar vardır.
+
+4.1-İSİMLENDİRME KURALLARI:
+
+Değişken İsimlendirme Kuralları:
+
++Değişken isimleri harf (A-Z veya a-z), rakam (0-9), alt çizgi (_) veya dolar işareti ($) ile başlayabilir.
++İsimlerde boşluk veya özel karakterler kullanılamaz (ör. *, +, -, &, / vb.).
++Büyük-küçük harf duyarlıdır (case-sensitive). Yani sayi, Sayi ve SAYI farklı değişken isimleridir.
++İsimler anlamlı olmalıdır ve programın okunabilirliğini artırmak için uygun olmalıdır.
++Java dilinde kullanılan özel kelimeler (reserved keywords) değişken isimleri olarak kullanılamazlar (ör. int, boolean, if, else gibi).
++Değişken isimleri genellikle küçük harfle başlar.
++Paket isimleri küçük harfle başlar ve nokta (.) ile ayrılan kelimelerden oluşur (ör. com.example.myproject.utilities).
+Sabit (Constant) İsimlendirme Kuralları:
+Sabitler genellikle büyük harfle yazılır ve kelimeler arasında alt çizgi (_) kullanılır (ör. MAX_SIZE, PI, COLOR_RED).
+
+5-STATEMENTLER:
+Sıfır, bir ya da daha fazla ifadenin bir araya gelerek, genelde sonunda ";" olacak şekilde, çalıştırılabilecek şekilde
+oluşturduğu yapıya statement denir.
+
+6- PUBLIC SINIF:
+ public sınıf niteleyicisi, sınıfa her yerden erişilebileceğini ifade eder.
+ public sınıf, kendi ismini taşıyan bir dosyada yer almak zorundadır.
+ Yani her Java kaynak kodu dosyasında en fazla bir tane public sınıf olabilir.
+
+7-MAIN METOD:
+ Java’da çalışma zamanı daima main metot ile başlar. Programı çalıştırmak için java komutuna main
+metodunun içinde olduğu sınıfın ismi geçilir.
+• main metot, tüm kodun çalışmaya başladığı yerdir.
+
+
+JAVA PROGRAMINDA KULLANILAN TİPLER VE DEĞİŞKENLER
+
+Değişken:
+▪ Programlama dillerinde, sayı, karakter, metin vb. türden verilerin değerlerini (data values) tutan yapılara
+değişken (variable) denir.
+▪ Değişkenlere değer atanır, bu değerler üzerinde işlemler yapılır ve sıklıkla değişkenlerin değerleri
+değişir.
+
+Type(Tip);
+▪ Bir değişkenin alabileceği değerlerin kümesine type denir. (Tam sayılar, karakterler vs..)
+
+Not: Java programında iki tür veri vardır. Bunlardan ilki ilkel (basit) tip olarak adlandırılırken ikinci tür veri tipi karmaşık (complex) tip olarak adlandırılmaktadır.
+
+▪ İlkel tipler 8 tanedir ve dilin tasarımı sırasında detayları değişmeyecek şekilde belirlenmiştir.
+• Yenileri oluşturulamaz.
+▪ Bunlar; byte, short, int, long, float, double, char ve boolean
+▪ Bu tiplerden Boolean dışında tamamı sayısaldır. Boolean ise mantıksaldır.
+▪ char dışında diğer 6 sayısal tip işaretlidir. (Negatif ve pozitif değerler alabilir.)
+▪ 4 tip tam sayılar içindir; byte, short, int, long
+▪ 2 tip ondalıklı sayılar içindir; float, double
+▪ char; karakter tipidir ve her karakterin pozitif bir tam sayı değerini tutar.
+
+Not: İlkel tip içerisinde bulunan tam sayıları tutan byte, short, int ve long tipleri bulunur. Bunların her birinin kendine has uzunlukları vardır;
+
+byte= 8 bit,
+short= 16 bit,
+int= 32 bit,
+long= 64 bit.
+
+Not: Yukarıdaki notta belirtilen tam sayı ifadesinin tiplerinin bulunduğu gibi ondalıklı sayı değişkenlerinin de kendine uzunlukları ve kullanım şekilleri vardır:
+float= 32 bit //floata değer atandıktan sonra değerin hemen arkasına f ya da F ifadesi koyulmalıdır.
+double= 64 bit.
+
+JAVADA DEĞİŞKEN TANIMLAMA İŞLEMİ:
+
+▪ Değişken tanımlamak (definition), değişkeni tanıtmak (declaration) ve ona bir ilk değer atamakla
+(initialization) gerçekleşir.
+
+ ör: int sayi = 5 ; Bu örnekte sayi değişkenine 5 atanmıştır.
+
+ NOT: Javada var ile değişken tanımlanırsa, tanımlanan değişkenin tipinin belirtilmesine ihtiyaç yoktur. Fakat atanan değişkene bir değer verilmek zorundadır.
+
+ JAVADA KONSOLDAN VERİ ALMA İŞLEMİ:
+ Java’da konsoldan veri almak için Scanner sınıfı kullanılır. Ama bu sınıfı kullanmadan önce
+ sınıfımıza Scanner sınıfını dahil etmemiz gerekir. Bunun için import deyimi kullanılır.
+
+ NOT: JAVA PROGRAMINDA KOD YAZARKEN TÜRKÇE KARAKTER KULLANMAMAYA ÖZEN GÖSTERİLMELİDİR.
